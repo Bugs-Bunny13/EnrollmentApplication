@@ -25,6 +25,7 @@ public class InputValidation : AValidator
             if (applicant == null)
             {
                 valid = false;
+                InvalidCheck(valid);
             }
             if (!DateTime.TryParseExact(applicant.BirthDate, "MMddyyyy", enUS, DateTimeStyles.None, out dt))
             {
