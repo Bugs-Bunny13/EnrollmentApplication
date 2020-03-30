@@ -1,0 +1,38 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "08c9a11e0793d4587c989b392424a4690d51aaee"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "EnrollmentApplication/1.0.0": {
+        "dependencies": {
+          "TinyCsvParser": "2.5.2"
+        },
+        "runtime": {
+          "EnrollmentApplication.dll": {}
+        }
+      },
+      "TinyCsvParser/2.5.2": {
+        "runtime": {
+          "lib/netstandard2.0/TinyCsvParser.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EnrollmentApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TinyCsvParser/2.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5550U/kpqrvBjtrFqG0SWrT0tPFweERS2ximIXktrJ7Yhmgws9xlhB/qrnLWjHiYknA+UcgR/0hdFZap+UmzKg==",
+      "path": "tinycsvparser/2.5.2",
+      "hashPath": "tinycsvparser.2.5.2.nupkg.sha512"
+    }
+  }
+}
